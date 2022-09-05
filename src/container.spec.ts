@@ -38,7 +38,7 @@ describe('Dependency Container', () => {
     expect(container._key).toBe('')
   })
 
-  it('should return me undefined when asking for a dependency which doesn not exist in the container', () => {
+  it('should return me undefined when asking for a dependency which doespa not exist in the container', () => {
     const resolvedDep = container.get('woef')
 
     expect(resolvedDep).toBeUndefined()
